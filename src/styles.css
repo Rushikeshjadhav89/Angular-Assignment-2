@@ -1,0 +1,5 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    height: 100vh;
+    background:radial-gradient(#7743DB,#6C4AB6,#FB2576) no-repeat;
+}

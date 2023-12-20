@@ -1,0 +1,16 @@
+<div id="Container" >
+    <div id="checkBike" (click)="ShowBikes()">
+      <h2>BIKES</h2>
+    </div>
+    <br /><br />
+    <div id="Show_bikes" *ngFor="let bike of Bikes">
+        <span (click)="Displayinfo(bike)">{{bike}}</span>
+    </div>
+    <div>
+      <h2 >{{ChoosenBike}}</h2>
+    </div>
+</div>
+  
+<body (click)="remove()">
+  
+</body>

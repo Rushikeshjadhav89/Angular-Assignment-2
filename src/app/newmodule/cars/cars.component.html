@@ -1,0 +1,15 @@
+<div id="container">
+  <div id="checkCar">
+    <div class="BTN"><button (click)="Showcars()" class="btn btn-danger">CARS</button> </div>
+    <div class="BTN"><button (click)="ShowBikes()" class="btn btn-danger">BIKES</button></div>
+  </div>
+
+  <br /><br />
+  <div id="Show_bikes" *ngFor="let CarBike of CarsBikes">
+    <span (click)="Displayinfo(CarBike)" class="mt-4">{{CarBike}}</span>
+  </div>
+
+  <div id="show" class="text-warning p-4" >
+    <h2> {{ChoosenCarBike}}</h2>
+  </div>
+</div>

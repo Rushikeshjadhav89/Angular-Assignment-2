@@ -1,0 +1,18 @@
+.BTN{
+    display: inline-block;
+    margin: 0 20px;
+
+}
+#container{
+    font-size: large;
+    
+    text-align: center;
+    /* display: grid; */
+    justify-content: center;
+
+    
+}
+
+#Show_bikes,#show{
+    text-align: center;
+}

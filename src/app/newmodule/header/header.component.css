@@ -1,0 +1,27 @@
+.custom-shape-divider-bottom-1669877980 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1669877980 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 167px;
+}
+
+.custom-shape-divider-bottom-1669877980 .shape-fill {
+    fill: #FFFFFF;
+}
+.Navbar{
+    font-family: cursive;
+    /* position: absolute; */
+    text-align: end;
+    right:  10px;
+    color:#C3FF99 ;   
+}
